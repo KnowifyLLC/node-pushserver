@@ -15,9 +15,6 @@
     "mongoose": "^4.11.10",
     "node-gcm": "^0.14.6"
   },
-  "bin": {
-    "pushserver": "./bin/pushserver.js"
-  },
   "main": "./lib/PushController.js",
   "scripts": {
     "start": "node ./bin/pushserver.js",
